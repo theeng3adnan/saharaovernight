@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <title>Hotel Alpha - Booking and Reservation Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+
+    <!-- External CSS libraries -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-submenu.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" type="text/css" href="fonts/linearicons/style.css">
+    <link rel="stylesheet" type="text/css"  href="css/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" type="text/css"  href="css/bootstrap-datepicker.min.css">
+
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" id="style_sheet" href="css/skins/blue-light-2.css">
+
+    <!-- Favicon icon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" >
+
+    <!-- Google fonts -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800%7CPlayfair+Display:400,700%7CRoboto:100,300,400,400i,500,700">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link rel="stylesheet" type="text/css" href="css/ie10-viewport-bug-workaround.css">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script  src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script  src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script  src="js/html5shiv.min.js"></script>
+    <script  src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<div class="page_loader"></div>
+
+<!-- Main header start -->
+<header class="main-header main-header-4">
+    <div class="container">
+        <nav class="navbar navbar-default">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navigation" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="index.html" class="logo">
+                    <img src="img/logos/logo.png" alt="logo">
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="navbar-collapse collapse" role="navigation" aria-expanded="true" id="app-navigation">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown active">
+                        <a tabindex="0" data-toggle="dropdown" data-submenu="" aria-expanded="false">
+                            Home<span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="index.html">Home 1</a></li>
+                            <li><a href="index-2.html">Home 2</a></li>
+                            <li><a href="index-3.html">Home 3</a></li>
+                            <li><a href="index-4.html">Home 4</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a tabindex="0" data-toggle="dropdown" data-submenu="" aria-expanded="false">
+                            Rooms<span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="rooms-col-1.html">1 Column</a></li>
+                            <li><a href="rooms-col-2.html">2 Column</a></li>
+                            <li><a href="hotel-rooms.html">3 Column</a></li>
+                            <li><a href="rooms-col-4.html">4 Column</a></li>
+                            <li><a href="rooms-details.html">Rooms Details</a></li>
+                            <li><a href="rooms-details-2.html">Rooms Details 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a tabindex="0" data-toggle="dropdown" data-submenu="" aria-expanded="false">
+                            Pages<span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-submenu">
+                                <a tabindex="0">Gallery</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="gallery.html">Gallery 3 Column</a></li>
+                                    <li><a href="gallery-4column.html">Gallery 4 Column</a></li>
+                                    <li><a href="gallery-masonry.html">Gallery Masonry</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a tabindex="0">About Us</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="about-2.html">About Us 2</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="booking-system.html">Booking System</a></li>
+                            <li class="dropdown-submenu">
+                                <a tabindex="0">Staff</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="staff.html">Staff</a></li>
+                                    <li><a href="staff-2.html">Staff 2</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a tabindex="0">Events</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="events.html">Events</a></li>
+                                    <li><a href="events-right-sidebar.html">Events Right Sidebar</a></li>
+                                    <li><a href="events-details.html">Events Details</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="pricing-tables.html">Pricing Tables</a></li>
+                            <li><a href="typography.html">Typography</a></li>
+                            <li><a href="faq.html">Faq</a></li>
+                            <li><a href="login.html">Login</a></li>
+                            <li><a href="signup.html">Signup</a></li>
+                            <li><a href="forgot-password.html">Forgot Password</a></li>
+                            <li><a href="404.html">404 Error</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a tabindex="0" data-toggle="dropdown" data-submenu="" aria-expanded="false">
+                            Contact<span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="contact.html">Contact 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a tabindex="0" data-toggle="dropdown" data-submenu="" aria-expanded="false">
+                            Blog<span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
+                            <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
+                            <li><a href="3_days_Tours_from_Fes_To_Marrakech.html">Blog Fullwidth</a></li>
+                            <li><a href="blog-creative.html">Blog Creative</a></li>
+                            <li><a href="blog-details.html">Blog Detail</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right hidden-sm hidden-xs">
+                    <li>
+                        <a class="btn-navbar btn btn-sm btn-theme-sm-outline btn-round" href="login.html">Create Account</a>
+                    </li>
+                    <li>
+                        <a id="header-search-btn" class="btn-navbar search-icon"><i class="fa fa-search"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- /.navbar-collapse -->
+            <!-- /.container -->
+        </nav>
+
+        <div class="header-search animated fadeInDown">
+            <form class="form-inline">
+                <input type="text" class="form-control" id="searchKey" placeholder="Search...">
+                <div class="search-btns">
+                    <button type="submit" class="btn btn-default">Search</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</header>
+<!-- Main header end -->
+
+<!-- Sub banner start -->
+<div class="sub-banner overview-bgi">
+    <div class="container">
+        <div class="breadcrumb-area">
+            <h1>Blog Fullwidthr</h1>
+            <ul class="breadcrumbs">
+                <li><a href="index.html">Home</a></li>
+                <li class="active">Blog Fullwidthr</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- Sub Banner end -->
+
+<!-- Blog body start -->
+<div class="blog-body content-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-xs-12">
+                <!-- Blog box start -->
+                <div class="blog-1">
+                    <div class="blog-photo">
+                        <img src="data/marrakech-menara-airport.jpeg " alt="blog" style="width: 1140px; height: 475px;" class="img-responsive">
+                        <div class="profile-user">
+                            <img src="http://placehold.it/45x45" alt="user">
+                        </div>
+                    </div>
+                    <div class="detail">
+
+                        <h3>
+                            <a style="font-weight: bold">Day 1: Arrival at Marrakech</a>
+                        </h3>
+                        <p>Pick up from the airport at your arrival time and transfer to the Riad that´s in the medina.</p>
+                    </div>
+                </div>
+                <div class="blog-1">
+                    <div class="blog-photo">
+                        <img src="data/main/popular3.jpg " alt="blog" style="width: 1140px; height: 475px;" class="img-responsive">
+                        <div class="profile-user">
+                            <img src="http://placehold.it/45x45" alt="user">
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <h3>
+                            <a style="font-weight: bold">Day 2: Marrakesh, Full Guided City Tour </a>
+                        </h3>
+                        <p>A Full guided tour will be scheduled to discover Marrakesh, which is known as the “Red City.” Marrakesh is the most important former imperial city in Morocco’s history; it is situated near the foothills of the snow-capped Atlas Mountain. Like all the old cities, Marrakech comprises both an old fortified city, The Medina, and a very modern city called Gueliz built during the French occupation. Marrakesh has the largest traditional market (souk) in Morocco and also has one of the busiest squares in Africa and the world, Djemaa el Fna. The square is full of story-tellers, water sellers, dancers, snakes charmers and musicians. During the night, the square turns into a huge open-air restaurant.
+                            During our visit, we will see the Koutoubia Mosque, built in the 12th century in the reign of the Almoravid Dynasty. We will go among narrow streets and allies in an ancient city. We pass by “seven saints” during the reign of Moulay Ismail, the festival of the seven saints was founded to the request of the Sultan. The tombs of several renowned figures were moved to Marrakesh to attract pilgrims.
+                            Marrakesh was dominated in the first half of the 20th century by T’hami El Glaoui, “Lord of the Atlas,” and Pasha of Marrakesh. Still, there is a house called Dar Pacha El Glaoui from where he used to rule the whole southern part of Morocco.
+                        </p>
+                    </div>
+                </div>
+                <div class="blog-1">
+                    <div class="blog-photo">
+                        <img src="data/trips/Day_3_Marrakech–Tizi-n-Tichka–Ait_Benhaddou–Ouarzazate–Dades%20Valley.PNG " alt="blog" style="width: 1140px; height: 475px;" class="img-responsive">
+                        <div class="profile-user">
+                            <img src="http://placehold.it/45x45" alt="user">
+                        </div>
+                    </div>
+                    <div class="detail">
+
+                        <h3>
+                            <a style="font-weight: bold">Day 3: Marrakech – Tizi -n-Tichka – Ait Benhaddou – Ouarzazate – Dades Valley/Gorges</a>
+                        </h3>
+                        <p>
+                            we will pick you up from your hotel/riad/ bus station we will start our journey from Marrakech to Dades Gorges. Across the Tizi-n-Tichka Atlas pass, with far-reaching views across the mountains, to the traditional High Atlas Berber village of Telouet and we continue to Ait Benhaddou to visit the UNESCO World Heritage Site of Ait Benhaddou, a spectacular fortified village (Ksour).you’ll take your lunch at Ait Benhaddou or Ouarzazate and continue to Dades valley, we will spend the night in a riad/hotel in Dades gorges
+                        </p>
+                    </div>
+                </div>
+                <div class="blog-1">
+                    <div class="blog-photo">
+                        <img src="data/trips/Day_4_Dades_Gorges–Tenghir–Todra_Gorges–Tinjdad–Erfoud–Rissani–Merzouga.PNG " alt="blog" style="width: 1140px; height: 475px;" class="img-responsive">
+                        <div class="profile-user">
+                            <img src="http://placehold.it/45x45" alt="user">
+                        </div>
+                    </div>
+                    <div class="detail">
+
+                        <h3>
+                            <a style="font-weight: bold">Day 4: Dades Gorges – Tenghir – Todra Gorges – Tinjdad – Erfoud – Rissani – Merzouga</a>
+                        </h3>
+                        <p>
+                            After breakfast, we go from DADES to Toudra gorges, tenghir, and to the Sahara desert of Merzouga, Berber villages are scattered along the way. We’ll pass through Tinjdad, Jorf, and Erfoud in which we’ll feel the beginning of the Saharan oasis of Tafilalet, then we continue to Merzouga, night in riad/Hotel near the dunes.
+                        </p>
+                    </div>
+                </div>
+                <div class="blog-1">
+                    <div class="blog-photo">
+                        <img src="data/076-le%20village,le%20fort%20militaire,l'erg%20chebbi.JPG" alt="blog" style="width: 1140px; height: 475px;" class="img-responsive">
+                        <div class="profile-user">
+                            <img src="http://placehold.it/45x45" alt="user">
+                        </div>
+                    </div>
+                    <div class="detail">
+
+                        <h3>
+                            <a style="font-weight: bold">Day 5: Tour around Erg Chebbi Desert by 4×4 – Merzouga – Camel Ride & Night in Desert</a>
+                        </h3>
+                        <p>
+                            After breakfast in the hotel, you’ll start your explorative journey of the area, visiting the ‘village of the blacks’, originally slaves from Sudan, to experience their music and lifestyle. Not far away, there’s the lake of Merzouga, with its bird populations, including flamingos. You may also like to visit the nomad wire house where many Berber handicrafts are priced lower than in the big cities. In the afternoon, you will mount your camel, guided by an experienced Camel man, to explore inside the mysterious sand-sea of the Erg-Chebbi. Here you’ll spend your first night under the stars, or if you prefer, in a traditional Berber nomad tent. Dinner will be served in the tent where you will spend the night.
+                        </p>
+                    </div>
+                </div>
+                <div class="blog-1">
+                    <div class="blog-photo">
+                        <img src="data/trips/Day_6_Merzouga–Rissani–Ziz_valley-fes.PNG " alt="blog" style="width: 1140px; height: 475px;" class="img-responsive">
+                        <div class="profile-user">
+                            <img src="http://placehold.it/45x45" alt="user">
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <h3>
+                            <a style="font-weight: bold">Day 6: Merzouga – Rissani – Ziz valley - fes</a>
+                        </h3>
+                        <p>
+                            our camel guide will wake you up early in the morning to watch what well may be the best sunrise in your life, and you take lovely pictures, then return by camels to the hotel for breakfast and Shower. Then, depart to Rissani, where you can visit the oldest traditional market in Tafilalet and d Erfoud, which is known by fossils. And through the Tizi Ntalghamt pass to Midelt. you will have a break in Zaida for lunchtime ( barbecue with a glass of mint tea ) We'll stop for  pictures of wild monkeys on the Cedar forests of Azrou before arriving in Fez, the night In riad or hotel
+                        </p>
+                    </div>
+                </div>
+
+                <div class="blog-1">
+                    <div class="blog-photo">
+                        <img src="data/fez%20tour%20saharaovernight.jpg " alt="blog" style="width: 1140px; height: 475px;" class="img-responsive">
+                        <div class="profile-user">
+                            <img src="http://placehold.it/45x45" alt="user">
+                        </div>
+                    </div>
+                    <div class="detail">
+
+                        <h3>
+                            <a style="font-weight: bold">Day 7: Fez (Sightseeing Tour with a local guide, Fez Medina)</a>
+                        </h3>
+                        <p>
+                            After visiting the economic capital Casablanca and the political one Rabat, here we go for another adventure through the intellectual capital of Fez, which was considered Mecca of the west and Athena of Africa. This city is a former capital and one of the country’s four imperial cities. Fez comprises three distinct parts, Fez el Bali which is the oldest part surrounded by a big wall, where are more than 9000 narrow streets and allies. Fez-Jdid or the new Fes, home of the Mellah the Jewish quarter and the Ville Nouvelle, the newest section of Fez created during the French occupation. Fez el Bali is a UNESCO World Heritage Site. Its medina is the largest in the world. Among its narrow streets and allies, the oldest university in the world is located; The University of Al-Karaouine, founded in AD 859. This University is still operating nowadays.
+                        </p>
+                    </div>
+                </div>
+                <div class="blog-1">
+                    <div class="blog-photo">
+                        <img src="data/Fez-sais-Airport.jpg " alt="blog" style="width: 1140px; height: 475px;" class="img-responsive">
+                        <div class="profile-user">
+                            <img src="http://placehold.it/45x45" alt="user">
+                        </div>
+                    </div>
+                    <div class="detail">
+
+                        <h3>
+                            <a style="font-weight: bold">Day 8: Fes – airport</a>
+                        </h3>
+                        <p>
+                            Transfer to Fes airport or Casablanca. End of our services
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Blog box end -->
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Blog body end -->
+
+<!-- Footer start -->
+<footer class="main-footer clearfix">
+    <div class="container">
+        <!-- Footer info-->
+        <div class="footer-info">
+            <div class="row">
+                <!-- About us -->
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="footer-item">
+                        <div class="footer-logo">
+                            <a href="index.html">
+                                <img src="img/logos/white-logo.png" alt="white-logo">
+                            </a>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, conser adipiscing elit. Maecenas in pulvinar neque. Nulla finibus lobortis pulvinar. Donec a conser nulla. Nulla posuere sapien vitae lectus suscipit, et pulvinar nisi tincidunt. Aliquam erat volutpat. Curabitur convallis fringilla diam.</p>
+                    </div>
+                </div>
+                <!-- Contact Us -->
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="footer-item">
+                        <div class="main-title-2">
+                            <h1>Contact Us</h1>
+                        </div>
+                        <ul class="personal-info">
+                            <li>
+                                <i class="fa fa-map-marker"></i>
+                                Address: 44 New Design Street,
+                            </li>
+                            <li>
+                                <i class="fa fa-envelope"></i>
+                                Email:<a href="mailto:sales@hotelempire.com">info@themevessel.com</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-phone"></i>
+                                Phone: <a href="tel:+55-417-634-7071">+0477 85X6 552</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-fax"></i>
+                                Fax: +0477 85X6 552
+                            </li>
+                        </ul>
+                        <div class="clearfix"></div>
+                        <ul class="social-list">
+                            <li><a href="#" class="twitter-bg"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#" class="facebook-bg"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#" class="rss-bg"><i class="fa fa-rss"></i></a></li>
+                            <li><a href="#" class="google-bg"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="#" class="linkedin-bg"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Gallery -->
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="footer-item gallery">
+                        <div class="main-title-2">
+                            <h1>Gallery</h1>
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="gallery.html">
+                                    <img src="http://placehold.it/77x77" alt="small-img-2">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="gallery.html">
+                                    <img src="http://placehold.it/77x77" alt="small-img-4">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="gallery.html">
+                                    <img src="http://placehold.it/77x77" alt="small-img-5">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="gallery.html">
+                                    <img src="http://placehold.it/77x77" alt="small-img-3">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="gallery.html">
+                                    <img src="http://placehold.it/77x77" alt="small-img-6">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="gallery.html">
+                                    <img src="http://placehold.it/77x77" alt="small-img-6">
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <!-- Newsletter -->
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="footer-item newsletter">
+                        <div class="main-title-2">
+                            <h1>Newsletter</h1>
+                        </div>
+                        <div class="newsletter-inner">
+                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <form action="#" method="GET">
+                                <p><input type="text" class="form-contact" name="email" placeholder="Enter your email"></p>
+                                <p><button type="submit" name="submitNewsletter" class="btn btn-small">
+                                    Signup
+                                </button></p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer end -->
+
+<!-- Copy right start -->
+<div class="copy-right">
+    <div class="container">
+        &copy;  2017 <a href="http://themevessel.com/" target="_blank">Theme Vessel</a>. Trademarks and brands are the property of their respective owners.
+    </div>
+</div>
+<!-- Copy end right-->
+
+<script  src="js/jquery-2.2.0.min.js"></script>
+<script  src="js/bootstrap.min.js"></script>
+<script  src="js/bootstrap-submenu.js"></script>
+<script  src="js/jquery.mb.YTPlayer.js"></script>
+<script  src="js/wow.min.js"></script>
+<script  src="js/bootstrap-select.min.js"></script>
+<script  src="js/jquery.easing.1.3.js"></script>
+<script  src="js/jquery.scrollUp.js"></script>
+<script  src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script  src="js/jquery.filterizr.js"></script>
+<script  src="js/bootstrap-datepicker.min.js"></script>
+<script  src="js/app.js"></script>
+
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script  src="js/ie10-viewport-bug-workaround.js"></script>
+<!-- Custom javascript -->
+
+</body>
+</html>

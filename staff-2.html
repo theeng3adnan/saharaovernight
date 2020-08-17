@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <title>Hotel Alpha - Booking and Reservation Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+
+    <!-- External CSS libraries -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-submenu.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" type="text/css" href="fonts/linearicons/style.css">
+    <link rel="stylesheet" type="text/css"  href="css/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" type="text/css"  href="css/bootstrap-datepicker.min.css">
+
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" id="style_sheet" href="css/skins/blue-light-2.css">
+
+    <!-- Favicon icon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" >
+
+    <!-- Google fonts -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800%7CPlayfair+Display:400,700%7CRoboto:100,300,400,400i,500,700">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link rel="stylesheet" type="text/css" href="css/ie10-viewport-bug-workaround.css">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script  src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script  src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script  src="js/html5shiv.min.js"></script>
+    <script  src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<div class="page_loader"></div>
+
+
+
+<!-- Top header start -->
+<!-- Top header end -->
+
+<!-- Main header start -->
+<header class="main-header  main-header-4">
+    <div class="container">
+        <nav class="navbar navbar-default">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navigation" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="index.html" class="logo">
+                    <img src="img/logos/" alt="logo">
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="navbar-collapse collapse" role="navigation" aria-expanded="true" id="app-navigation">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown active">
+                        <a tabindex="0" data-toggle="dropdown" data-submenu="" aria-expanded="false">
+                            Home<span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about-2.html">About Us</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a tabindex="0" data-toggle="dropdown" data-submenu="" aria-expanded="false">
+                            Rooms<span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="hotel-rooms.html">Hotel rooms</a></li>
+                            <li><a href="tents-rooms.html">tents rooms</a></li>
+                            <li><a href="#">Rooms Details 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a tabindex="0" data-toggle="dropdown" data-submenu="" aria-expanded="false">
+                            Pages<span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li >
+                                <a href="gallery.html" tabindex="0">Gallery</a>
+                            </li>
+                            <li><a href="booking-system.html">Booking System</a></li>
+                            <li class="dropdown-submenu">
+                                <a tabindex="0">Staff</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="staff-2.html">Staff 2</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a tabindex="0">Events</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="events.html">Events</a></li>
+                                    <li><a href="events-right-sidebar.html">Events Right Sidebar</a></li>
+                                    <li><a href="events-details.html">Events Details</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="typography.html">I have to add it myself</a></li>
+                            <li><a href="faq.html">Faq</a></li>
+                            <li><a href="404.html">404 Error</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a tabindex="0" data-toggle="dropdown" data-submenu="" aria-expanded="false">
+                            Contact<span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="contact.html">Contact 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a tabindex="0" data-toggle="dropdown" data-submenu="" aria-expanded="false">
+                            days trip<span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
+                            <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
+                            <li><a href="3_days_Tours_from_Fes_To_Marrakech.html">Blog Fullwidth</a></li>
+                            <li><a href="blog-creative.html">Blog Creative</a></li>
+                            <li><a href="blog-details.html">Blog Detail</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+
+            <!-- /.navbar-collapse -->
+            <!-- /.container -->
+        </nav>
+
+        <div class="header-search animated fadeInDown">
+            <form class="form-inline">
+                <input type="text" class="form-control" id="searchKey" placeholder="Search...">
+                <div class="search-btns">
+                    <button type="submit" class="btn btn-default">Search</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</header>
+<!-- Main header end -->
+
+<!-- Sub banner start -->
+<div class="sub-banner overview-bgi">
+    <div class="container">
+        <div class="breadcrumb-area">
+            <h1>Our Staff</h1>
+            <ul class="breadcrumbs">
+                <li><a href="index.html">Home</a></li>
+                <li class="active">Our Staff</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- Sub Banner end -->
+
+<!-- staff section start -->
+<div class="content-area staff-section">
+    <div class="container">
+        <!-- Main title -->
+        <div class="main-title">
+            <h1><span>Our</span> Staff</h1>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="staff-box-2">
+                    <div class="col-lg-5 col-md-5 col-sm-12 col-pad">
+                        <img src="http://placehold.it/231x231" alt="staff-5" class="img-responsive">
+                        <!-- social box -->
+                        <div class="social-box">
+                            <ul class="social-list clearfix">
+                                <li>
+                                    <a href="#" class="facebook">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="twitter">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="linkedin">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="google">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="rss">
+                                        <i class="fa fa-rss"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-sm-12 content">
+                        <!-- Title -->
+                        <h1 class="title">
+                            <a href="#">Karen Paran</a>
+                        </h1>
+                        <!-- Subject -->
+                        <h3 class="subject">Hotel Manager</h3>
+                        <!-- paragraph -->
+                        <p>Lorem ipsum dolor sit amet, conser adipiscing elit. Sed tempor arcu non ligula convallis ipsum.</p>
+                        <!-- btn -->
+                        <a href="#" class="read-more-btn">Read More...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="staff-box-2">
+                    <div class="col-lg-5 col-md-5 col-sm-12  col-pad">
+                        <img src="http://placehold.it/231x231" alt="staff-6" class="img-responsive">
+                        <!-- social box -->
+                        <div class="social-box">
+                            <ul class="social-list clearfix">
+                                <li>
+                                    <a href="#" class="facebook">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="twitter">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="linkedin">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="google">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="rss">
+                                        <i class="fa fa-rss"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-sm-12 content">
+                        <!-- Title -->
+                        <h1 class="title">
+                            <a href="#">Emma Connor</a>
+                        </h1>
+                        <!-- Subject -->
+                        <h3 class="subject">Hotel Manager</h3>
+                        <!-- paragraph -->
+                        <p>Lorem ipsum dolor sit amet, conser adipiscing elit. Sed tempor arcu non ligula convallis ipsum.</p>
+                        <!-- btn -->
+                        <a href="#" class="read-more-btn">Read More...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="staff-box-2">
+                    <div class="col-lg-5 col-md-5 col-sm-12  col-pad">
+                        <img src="http://placehold.it/231x231" alt="staff-6" class="img-responsive">
+                        <!-- social box -->
+                        <div class="social-box">
+                            <ul class="social-list clearfix">
+                                <li>
+                                    <a href="#" class="facebook">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="twitter">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="linkedin">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="google">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="rss">
+                                        <i class="fa fa-rss"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-sm-12 content">
+                        <!-- Title -->
+                        <h1 class="title">
+                            <a href="#">Emma Connor</a>
+                        </h1>
+                        <!-- Subject -->
+                        <h3 class="subject">Hotel Manager</h3>
+                        <!-- paragraph -->
+                        <p>Lorem ipsum dolor sit amet, conser adipiscing elit. Sed tempor arcu non ligula convallis ipsum.</p>
+                        <!-- btn -->
+                        <a href="#" class="read-more-btn">Read More...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="staff-box-2">
+                    <div class="col-lg-5 col-md-5 col-sm-12 col-pad">
+                        <img src="http://placehold.it/231x231" alt="staff-5" class="img-responsive">
+                        <!-- social box -->
+                        <div class="social-box">
+                            <ul class="social-list clearfix">
+                                <li>
+                                    <a href="#" class="facebook">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="twitter">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="linkedin">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="google">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="rss">
+                                        <i class="fa fa-rss"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-sm-12 content">
+                        <!-- Title -->
+                        <h1 class="title">
+                            <a href="#">Karen Paran</a>
+                        </h1>
+                        <!-- Subject -->
+                        <h3 class="subject">Hotel Manager</h3>
+                        <!-- paragraph -->
+                        <p>Lorem ipsum dolor sit amet, conser adipiscing elit. Sed tempor arcu non ligula convallis ipsum.</p>
+                        <!-- btn -->
+                        <a href="#" class="read-more-btn">Read More...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="staff-box-2">
+                    <div class="col-lg-5 col-md-5 col-sm-12 col-pad">
+                        <img src="http://placehold.it/231x231" alt="staff-5" class="img-responsive">
+                        <!-- social box -->
+                        <div class="social-box">
+                            <ul class="social-list clearfix">
+                                <li>
+                                    <a href="#" class="facebook">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="twitter">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="linkedin">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="google">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="rss">
+                                        <i class="fa fa-rss"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-sm-12 content">
+                        <!-- Title -->
+                        <h1 class="title">
+                            <a href="#">Karen Paran</a>
+                        </h1>
+                        <!-- Subject -->
+                        <h3 class="subject">Hotel Manager</h3>
+                        <!-- paragraph -->
+                        <p>Lorem ipsum dolor sit amet, conser adipiscing elit. Sed tempor arcu non ligula convallis ipsum.</p>
+                        <!-- btn -->
+                        <a href="#" class="read-more-btn">Read More...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="staff-box-2">
+                    <div class="col-lg-5 col-md-5 col-sm-12  col-pad">
+                        <img src="http://placehold.it/231x231" alt="staff-6" class="img-responsive">
+                        <!-- social box -->
+                        <div class="social-box">
+                            <ul class="social-list clearfix">
+                                <li>
+                                    <a href="#" class="facebook">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="twitter">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="linkedin">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="google">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="rss">
+                                        <i class="fa fa-rss"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-sm-12 content">
+                        <!-- Title -->
+                        <h1 class="title">
+                            <a href="#">Emma Connor</a>
+                        </h1>
+                        <!-- Subject -->
+                        <h3 class="subject">Hotel Manager</h3>
+                        <!-- paragraph -->
+                        <p>Lorem ipsum dolor sit amet, conser adipiscing elit. Sed tempor arcu non ligula convallis ipsum.</p>
+                        <!-- btn -->
+                        <a href="#" class="read-more-btn">Read More...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="staff-box-2">
+                    <div class="col-lg-5 col-md-5 col-sm-12  col-pad">
+                        <img src="http://placehold.it/231x231" alt="staff-6" class="img-responsive">
+                        <!-- social box -->
+                        <div class="social-box">
+                            <ul class="social-list clearfix">
+                                <li>
+                                    <a href="#" class="facebook">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="twitter">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="linkedin">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="google">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="rss">
+                                        <i class="fa fa-rss"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-sm-12 content">
+                        <!-- Title -->
+                        <h1 class="title">
+                            <a href="#">Emma Connor</a>
+                        </h1>
+                        <!-- Subject -->
+                        <h3 class="subject">Hotel Manager</h3>
+                        <!-- paragraph -->
+                        <p>Lorem ipsum dolor sit amet, conser adipiscing elit. Sed tempor arcu non ligula convallis ipsum.</p>
+                        <!-- btn -->
+                        <a href="#" class="read-more-btn">Read More...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="staff-box-2">
+                    <div class="col-lg-5 col-md-5 col-sm-12 col-pad">
+                        <img src="http://placehold.it/231x231" alt="staff-5" class="img-responsive">
+                        <!-- social box -->
+                        <div class="social-box">
+                            <ul class="social-list clearfix">
+                                <li>
+                                    <a href="#" class="facebook">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="twitter">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="linkedin">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="google">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="rss">
+                                        <i class="fa fa-rss"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-sm-12 content">
+                        <!-- Title -->
+                        <h1 class="title">
+                            <a href="#">Karen Paran</a>
+                        </h1>
+                        <!-- Subject -->
+                        <h3 class="subject">Hotel Manager</h3>
+                        <!-- paragraph -->
+                        <p>Lorem ipsum dolor sit amet, conser adipiscing elit. Sed tempor arcu non ligula convallis ipsum.</p>
+                        <!-- btn -->
+                        <a href="#" class="read-more-btn">Read More...</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center">
+            <!-- Page navigation start -->
+            <nav aria-label="Page navigation">
+                <ul class="pagination">
+                    <li>
+                        <a href="#" aria-label="Previous">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                    </li>
+                    <li><a href="staff.html">1 <span class="sr-only">(current)</span></a></li>
+                    <li class="active"><a href="staff-2.html">2</a></li>
+                    <li>
+                        <a href="#" aria-label="Next">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- Page navigation end -->
+        </div>
+    </div>
+</div>
+<!-- Teachers section end -->
+
+<!-- Partners block start -->
+<div class="partners-block">
+    <div class="container">
+        <h3>Our Partners</h3>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="carousel our-partners slide" id="ourPartners">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <div class="col-xs-12 col-sm-6 col-md-3">
+                                <a href="#">
+                                    <img src="http://placehold.it/180x67" alt="audiojungle">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="col-xs-12 col-sm-6 col-md-3">
+                                <a href="#">
+                                    <img src="http://placehold.it/180x67" alt="themeforest">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="col-xs-12 col-sm-6 col-md-3">
+                                <a href="#">
+                                    <img src="http://placehold.it/180x67" alt="tuts">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="col-xs-12 col-sm-6 col-md-3">
+                                <a href="#">
+                                    <img src="http://placehold.it/180x67" alt="graphicriver">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="col-xs-12 col-sm-6 col-md-3">
+                                <a href="#">
+                                    <img src="http://placehold.it/180x67" alt="codecanyon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#ourPartners" data-slide="prev"><i class="fa fa-chevron-left icon-prev"></i></a>
+                    <a class="right carousel-control" href="#ourPartners" data-slide="next"><i class="fa fa-chevron-right icon-next"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Partners block end -->
+
+<!-- Footer start -->
+<footer class="main-footer clearfix">
+    <div class="container">
+        <!-- Footer info-->
+        <div class="footer-info">
+            <div class="row">
+                <!-- About us -->
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="footer-item">
+                        <div class="footer-logo">
+                            <a href="index.html">
+                                <img src="img/logos/white-logo.png" alt="white-logo">
+                            </a>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, conser adipiscing elit. Maecenas in pulvinar neque. Nulla finibus lobortis pulvinar. Donec a conser nulla. Nulla posuere sapien vitae lectus suscipit, et pulvinar nisi tincidunt. Aliquam erat volutpat. Curabitur convallis fringilla diam.</p>
+                    </div>
+                </div>
+                <!-- Contact Us -->
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="footer-item">
+                        <div class="main-title-2">
+                            <h1>Contact Us</h1>
+                        </div>
+                        <ul class="personal-info">
+                            <li>
+                                <i class="fa fa-map-marker"></i>
+                                Address: 44 New Design Street,
+                            </li>
+                            <li>
+                                <i class="fa fa-envelope"></i>
+                                Email:<a href="mailto:sales@hotelempire.com">info@themevessel.com</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-phone"></i>
+                                Phone: <a href="tel:+55-417-634-7071">+0477 85X6 552</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-fax"></i>
+                                Fax: +0477 85X6 552
+                            </li>
+                        </ul>
+                        <div class="clearfix"></div>
+                        <ul class="social-list">
+                            <li><a href="#" class="twitter-bg"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#" class="facebook-bg"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#" class="rss-bg"><i class="fa fa-rss"></i></a></li>
+                            <li><a href="#" class="google-bg"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="#" class="linkedin-bg"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Gallery -->
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="footer-item gallery">
+                        <div class="main-title-2">
+                            <h1>Gallery</h1>
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="gallery.html">
+                                    <img src="http://placehold.it/77x77" alt="small-img-2">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="gallery.html">
+                                    <img src="http://placehold.it/77x77" alt="small-img-4">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="gallery.html">
+                                    <img src="http://placehold.it/77x77" alt="small-img-5">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="gallery.html">
+                                    <img src="http://placehold.it/77x77" alt="small-img-3">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="gallery.html">
+                                    <img src="http://placehold.it/77x77" alt="small-img-6">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="gallery.html">
+                                    <img src="http://placehold.it/77x77" alt="small-img-6">
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <!-- Newsletter -->
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="footer-item newsletter">
+                        <div class="main-title-2">
+                            <h1>Newsletter</h1>
+                        </div>
+                        <div class="newsletter-inner">
+                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <form action="#" method="GET">
+                                <p><input type="text" class="form-contact" name="email" placeholder="Enter your email"></p>
+                                <p><button type="submit" name="submitNewsletter" class="btn btn-small">
+                                    Signup
+                                </button></p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer end -->
+
+<!-- Copy right start -->
+<div class="copy-right">
+    <div class="container">
+        &copy;  2017 <a href="http://themevessel.com/" target="_blank">Theme Vessel</a>. Trademarks and brands are the property of their respective owners.
+    </div>
+</div>
+<!-- Copy end right-->
+
+<script  src="js/jquery-2.2.0.min.js"></script>
+<script  src="js/bootstrap.min.js"></script>
+<script  src="js/bootstrap-submenu.js"></script>
+<script  src="js/jquery.mb.YTPlayer.js"></script>
+<script  src="js/wow.min.js"></script>
+<script  src="js/bootstrap-select.min.js"></script>
+<script  src="js/jquery.easing.1.3.js"></script>
+<script  src="js/jquery.scrollUp.js"></script>
+<script  src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script  src="js/jquery.filterizr.js"></script>
+<script  src="js/bootstrap-datepicker.min.js"></script>
+<script  src="js/app.js"></script>
+
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script  src="js/ie10-viewport-bug-workaround.js"></script>
+<!-- Custom javascript -->
+
+</body>
+</html>
